@@ -39,18 +39,111 @@
 
      <!-- Register/Sign in section -->
      <div class="dropdown">
-     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register/Sign in</button>
-   <div class="dropdown-menu dropdown-menu-right">
-    <button class="dropdown-item" type="button">Register</button>
-    <button class="dropdown-item" type="button" href="sign_in.html">Sign in</button>
-   </div>
-   </div>
+       <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register/Sign in</button>
+       <div class="dropdown-menu dropdown-menu-right">
+         <button class="dropdown-item" onclick="window.location = 'register.html'">Register</button>
+         <button class="dropdown-item" onclick="window.location = 'sign_in.html'">Sign in</button>
+       </div>
+     </div>
    </nav>
 
    <main role="main"></main>
 
-
-
+<!-- Registration form -->
+<div class="container">
+<div class="card">
+<div class="card-header">
+ Register with us today!
+</div>
+  <div class="card-body">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputFirstName4">First name</label>
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputLastName4">Surname</label>
+      <input type="text" class="form-control" placeholder="Surname">
+    </div>
+  </div>
+</form>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>Highland</option>
+        <option>Argyll and Bute</option>
+        <option>Dumfries and Galloway</option>
+        <option>Aberdeenshire</option>
+        <option>Perth and Kinross</option>
+        <option>Scottish Borders</option>
+        <option>Na h-Eileanan Siar</option>
+        <option>Moray</option>
+        <option>Stirling</option>
+        <option>Angus</option>
+        <option>South Lanarkshire</option>
+        <option>Shetland Islands</option>
+        <option>Fife</option>
+        <option>East Ayrshire</option>
+        <option>South Ayrshire</option>
+        <option>Orkney Islands</option>
+        <option>North Ayrshire</option>
+        <option>East Lothian</option>
+        <option>North Lanarkshire</option>
+        <option>West Lothian</option>
+        <option>Midlothian</option>
+        <option>Falkirk</option>
+        <option>City of Edinburgh</option>
+        <option>Renfrewshire</option>
+        <option>Aberdeen City</option>
+        <option>Glasgow City</option>
+        <option>East Dunbartonshire</option>
+        <option>East Renfrewshire</option>
+        <option>Inverclyde</option>
+        <option>Clackmannanshire</option>
+        <option>West Dunbartonshire</option>
+        <option>Dundee City</option>      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        I would like to recieve emails regarding any events
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Register</button>
+</form>
 
    <footer class="container">
      <p>&copy; CodeFirst Girls 2019</p>
