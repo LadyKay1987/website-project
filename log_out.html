@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Walkies!</title>
-      <link rel="icon" href="images/favicon.png"/>
+        <title>Walkies!</title>
+        <link rel="icon" href="images/favicon.png"/>
     </head>
 
     <!-- Bootstrap core CSS -->
@@ -39,51 +39,23 @@
 
      <!-- Register/Sign in section -->
      <div class="dropdown">
-       <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register/Sign in</button>
+       <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USERNAME</button>
        <div class="dropdown-menu dropdown-menu-right">
-         <button class="dropdown-item" onclick="window.location = 'register.html'">Register</button>
-         <button class="dropdown-item" onclick="window.location = 'sign_in.html'">Sign in</button>
+         <button class="dropdown-item" onclick="window.location = 'register.html'">My profile</button>
+         <button class="dropdown-item" onclick="window.location = 'sign_in.html'">Settings</button>
+         <button class="dropdown-item" onclick="window.location = 'log_out.html'">Log out</button>
        </div>
      </div>
    </nav>
 
-   <main role="main"></main>
+   <main role="main">
 
-   <!-- contact form -->
-   <div class="container">
-   <div class="card">
-  <div class="card-header">
-    How can we help you?
-  </div>
-  <div class="card-body">
-   <form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Your name</label>
-    <input type="email" class="form-control">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Enquiry details</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Please select an option ...</option>
-      <option>General enquiries</option>
-      <option>Adopting a dog</option>
-      <option>Finding a walking group</option>
-      <option>Other</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Message us</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" id="exampleFormControlInput1" placeholder="Please state how we can help you"></textarea>
-  </div>
-  <button type="button" class="btn btn-success btn-lg btn-block">Submit</button>
-</form>
-</div>
-  </div>
-</div>
+     <div class="alert alert-success" role="alert">
+       <h4 class="alert-heading">Goodbye!</h4>
+       <p>You have successfully logged out. See you again soon!</p>
+     </div>
+
+   </main>
 
    <footer class="container">
      <p>&copy; CodeFirst Girls 2019</p>
