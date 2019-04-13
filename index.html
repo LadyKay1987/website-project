@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138103613-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138103613-1');
+</script>
         <title>Walkies!</title>
+        <link rel="icon" href="images/favicon.png"/>
     </head>
 
     <!-- Bootstrap core CSS -->
@@ -19,8 +29,8 @@
      </button>
      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
        <ul class="navbar-nav mr-auto">
-         <li class="nav-item active">
-           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         <li class="nav-item">
+           <a class="nav-link home" href="index.html">Home</a>
          </li>
          <li class="nav-item">
            <a class="nav-link" href="index.html#about_us">About us</a>
@@ -31,7 +41,18 @@
          <li class="nav-item">
            <a class="nav-link contact" href="contact.html">Contact us</a>
          </li>
+         <li class="nav-item">
+           <a class="nav-link "
        </ul>
+     </div>
+
+     <!-- Register/Sign in section -->
+     <div class="dropdown">
+       <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register/Sign in</button>
+       <div class="dropdown-menu dropdown-menu-right">
+         <button class="dropdown-item" onclick="window.location = 'register.html'">Register</button>
+         <button class="dropdown-item" onclick="window.location = 'sign_in.html'">Sign in</button>
+       </div>
      </div>
    </nav>
 
@@ -43,9 +64,6 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
           </ol>
 
   <!-- Start Carousel -->
@@ -55,16 +73,10 @@
       <div class="carousel-image-component" style="background-image: url('images/dogwalking1.jpg')">[text]</div>
     </div>
     <div class="carousel-item">
-      <div class="carousel-image-component" style="background-image: url('images/dogwalking2.jpeg')">[text]</div>
-    </div>
-    <div class="carousel-item">
-      <div class="carousel-image-component" style="background-image: url('images/dogwalking3.jpg')">[text]</div>
+      <div class="carousel-image-component" style="background-image: url('images/dogwalking2.jpg')">[text]</div>
     </div>
     <div class="carousel-item">
       <div class="carousel-image-component" style="background-image: url('images/dogwalking4.jpg')">[text]</div>
-    </div>
-    <div class="carousel-item">
-      <div class="carousel-image-component" style="background-image: url('images/dogwalking5.jpg')">[text]</div>
     </div>
   </div>
 
@@ -85,18 +97,30 @@
        <div class="row">
          <div class="col-md-12">
            <h2 id="about_us">About us</h2>
-           <p>Hi Kay, Did this work? </p>
-           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+           <p>Walkies gives you the opportunity to meet dogs from your local shelter while also improving the health and wellbeing of yourself and the dogs! Volunteer to help the rescues or bring along your own dog to socialise! Sign up now! </p>
+           <div class="card">
+  <div class="card-header">
+    One of our walkers said...
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>I like walkin' ma dugs wae other folk and their dugs. Dugs are dead gid.</p>
+      <footer class="blockquote-footer">Wee Annie <cite title="Source Title">fae Ibrox</cite></footer>
+    </blockquote>
+  </div>
+</div>
+<p>
          </div>
          <div class="col-md-12">
            <h2 id="near_you">Walkies Near You!</h2>
            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+           <p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d575215.194610756!2d-4.153771667855723!3d55.70784431860527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7589bda7cdf668f!2sDogs+Trust+Glasgow!5e0!3m2!1sen!2suk!4v1554920743894!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
          </div>
          <div class="col-md-12">
            <h2>Contact us</h2>
            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+           <p><a class="btn btn-secondary" href="contact.html" role="button">Contact us here &raquo;</a></p>
          </div>
        </div>
 
