@@ -3,99 +3,85 @@
     <head>
       <link rel="icon" href="/website=project-master/images/tab-icon.png">
         <title>Walkies!</title>
+          <link rel="icon" href="images/favicon.png"/>
     </head>
 
     <!-- Bootstrap core CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/styles.css" rel="stylesheet">
  </head>
 
- <body>
-   <!-- Navbar -->
-   <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
-     <a class="navbar-brand" href="#">Navbar</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item">
-           <a class="nav-link home" href="index.html">Home</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="index.html#about_us">About us</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link walkies_near_you" href="index.html#near_you">Walkies Near You!</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link contact" href="contact.html">Contact us</a>
-         </li>
-       </ul>
-     </div>
-   </nav>
+  <body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link home" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link walkies_near_you" href="near_you.html">Walkies Near You!</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contact" href="meet-our-dogs.html">Meet Our Dogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link contact" href="contact.html">Contact us</a>
+        </li>
+      </ul>
+    </div>
 
-   <main role="main"></main>
+    <!-- Register/Sign in section -->
+    <div class="dropdown">
+      <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Register/Sign in</button>
+      <div class="dropdown-menu dropdown-menu-right">
+        <button class="dropdown-item" onclick="window.location = 'register.html'">Register</button>
+        <button class="dropdown-item" onclick="window.location = 'sign_in.html'">Sign in</button>
+      </div>
+    </div>
+  </nav>
+    <main role="main">
 
-   <!-- Carousel -->
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-             <ol class="carousel-indicators">
-               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-             </ol>
+  <h1 class=ourteam> Our team </h1>
 
-     <!-- Start Carousel -->
+<div class="row">
+  <div class="column">
+<figure>
+  <img class=team src=images/hollie.jpg height=269 width=269>
+  <figcaption>Hollie Marwick-Best
+  <p><a href="https://www.linkedin.com/in/hollie-marwick-best/" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></p></figcaption>
+</figure>
+  </div>
 
-     <div class="carousel-inner">
-       <div class="carousel-item active">
-         <div class="carousel-image-component" style="background-image: url('images/dogwalking1.jpg')">[text]</div>
-       </div>
-       <div class="carousel-item">
-         <div class="carousel-image-component" style="background-image: url('images/rascal.jpg')">[text]</div>
-       </div>
-       <div class="carousel-item">
-         <div class="carousel-image-component" style="background-image: url('images/dogwalking3.jpg')">[text]</div>
-       </div>
-       <div class="carousel-item">
-         <div class="carousel-image-component" style="background-image: url('images/dogwalking4.jpg')">[text]</div>
-       </div>
-       <div class="carousel-item">
-         <div class="carousel-image-component" style="background-image: url('images/dogwalking5.jpg')">[text]</div>
-       </div>
-     </div>
+  <div class="column">
+<figure>
+  <img class="team" src=images/kaycfg.jpg height=269 width=269>
+  <figcaption> Kayleigh Coyle
+  <p><a href="https://www.linkedin.com/in/kayleigh-coyle-102942167/" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></p></figcaption>
+</figure>
+  </div>
 
-     <!-- End Carousel -->
+  <div class="column">
+<figure>
+  <img class="team" src=images/rachel.jpg height=269 width=269>
+  <figcaption>Rachel McMurray
+  <p><a href="https://www.linkedin.com/in/rachel-mcmurray/" title="LinkedIn" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></p></figcaption>
+<figure>
+  </div>
+</div>
 
-     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-       <span class="sr-only">Previous</span>
-     </a>
-     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-       <span class="sr-only">Next</span>
-     </a>
-   </div>
-
-<p>
-   <center>Walkies is a great opportunity to meet our lovely rescue dogs!</center>
-</p>
-<p>
-  <center>Find us on social media and share your Walkies snaps with us!</center>
-</p>
-
-
-<div class="wrapper">
-   <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-google-plus"></i></a>
-   <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
-   <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
-</div></a>
-
+<footer class="container">
+  <p>&copy; CodeFirst Girls 2019</p>
+</footer>
    <!-- Bootstrap core JavaScript
    ================================================== -->
    <!-- Placed at the end of the document so the pages load faster -->
