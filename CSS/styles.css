@@ -1,0 +1,182 @@
+body {
+    padding-top: 5rem;
+}
+
+main {
+  position: relative;
+  top: -25px;
+}
+
+.right {
+  position: absolute;
+  right: 20px;
+  width: 500px;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+  padding-left: 30px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+}
+
+/* Fake image */
+.container {
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.blockquote {
+  text-align: right;
+  font-size: 18px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.carousel-image-component {
+  width: 100%;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  color: #000000;
+  font-size: 40pt;
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 1.5em; /* 40px/16=2.5em */
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+ }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   padding-top: 12px;
+ }
+/* Meet the dogs */
+.meet-the-dogs {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.meet-dog-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.meet-dogs-para {
+  width: 60%;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+.meet-dogs-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.meet-dogs-header {
+  text-align: center;
+  padding: 25px;
+}
+
+/* Picture of the week */
+div.gallery {
+  float: center;
+  width: 300px;
+  padding-right: 17px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+.btn-linkedin {
+  background: #0E76A8;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+  color: #fff;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
+}
+
+.column {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.team {
+  border-radius: 50%
+}
+
+.ourteam {
+  text-align: center;
+  font-size: 28px
+}
