@@ -149,3 +149,34 @@ div.desc {
   text-align: center;
   font-style: italic;
 }
+
+.btn-linkedin {
+  background: #0E76A8;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+  color: #fff;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
+}
+
+.column {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.team {
+  border-radius: 50%
+}
+
+.ourteam {
+  text-align: center;
+  font-size: 28px
+}
