@@ -184,3 +184,19 @@ div.desc {
 .figcaption {
   text-align: center;
 }
+
+.maps {
+  float: left
+}
+
+.nearyou {
+  padding: 15px;
+  text-align: center;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  font-size: 15px
+  text-align: right;
+}
