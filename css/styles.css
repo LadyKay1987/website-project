@@ -28,10 +28,10 @@ main {
 /* Right column */
 .rightcolumn {
   float: right;
-  width: 25%;
+  text-align: center;
+  width: 22%;
   padding-left: 10px;
-  padding-right: 30px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
 }
 
 /* Fake image */
@@ -90,7 +90,11 @@ h1 {
 
 h2 {
   font-size: 1.875em; /* 30px/16=1.875em */
+  padding-left: 15px;
  }
+h5 {
+  padding-left: 15px;
+}
 
 .footer {
    position: fixed;
@@ -132,24 +136,37 @@ h2 {
   padding: 25px;
 }
 
+div.newsletter {
+  padding: 15px;
+}
 /* Picture of the week */
 div.gallery {
   float: center;
   width: 300px;
-  padding-right: 17px;
+  padding-left: 10px;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+  align-items: center;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
-  font-style: italic;
+  padding-right: : 15px;
+  text-align: justify;
 }
 
+div.team-name {
+  text-align: center;
+}
+div.team-desc {
+  text-align: justify;
+}
+div.quote {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .btn-linkedin {
   background: #0E76A8;
   border-radius: 0;
@@ -183,4 +200,12 @@ div.desc {
 
 .figcaption {
   text-align: center;
+}
+
+.alert {
+  padding-top: 30px;
+}
+
+div.quote {
+  text-align: right;
 }
