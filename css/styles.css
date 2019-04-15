@@ -26,13 +26,13 @@ main {
   width: 25%;
   padding-left: 10px;
   padding-right: 30px;
+  padding-bottom: 80px;
 }
 
 /* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+.container {
+  padding-left: 5px;
+  padding-right: 5px
 }
 
 /* Add a card effect for articles */
@@ -69,10 +69,19 @@ main {
   background-position: center;
 
   text-align: center;
-  color: #fff;
-  font-size: 30pt;
-  padding-top: 270px;
+  color: #000000;
+  font-size: 40pt;
+  padding-top: 30px;
 }
+
+h1 {
+  font-size: 1.5em; /* 40px/16=2.5em */
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.875em; /* 30px/16=1.875em */
+ }
 
 .footer {
    position: fixed;
@@ -83,7 +92,7 @@ main {
    text-align: center;
    padding-top: 12px;
  }
-
+/* Meet the dogs */
 .meet-the-dogs {
   display: block;
   margin: 0 auto;
@@ -94,7 +103,6 @@ main {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-
 }
 
 .meet-dogs-para {
@@ -113,4 +121,22 @@ main {
 .meet-dogs-header {
   text-align: center;
   padding: 25px;
+}
+
+/* Picture of the week */
+div.gallery {
+  float: center;
+  width: 300px;
+  padding-right: 17px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-style: italic;
 }
